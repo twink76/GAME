@@ -1,0 +1,1 @@
+pyuic5 Boss_1_EasyMode.ui -o Boss_1_EasyMode.py

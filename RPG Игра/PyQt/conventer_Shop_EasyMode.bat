@@ -1,0 +1,1 @@
+pyuic5 Shop_EasyMode.ui -o Shop_EasyMode.py

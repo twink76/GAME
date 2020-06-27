@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Shop_EasyMode</class>
+ <widget class="QMainWindow" name="Shop_EasyMode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Shop_EasyMode</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #edeef0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>10</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Магазин</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 15px;
+font-size: 25px;
+color: white;
+background-color: #969393;
+}
+
+QPushButton:hover{
+background-color: #878484;
+}
+
+QPushButton:pressed{
+font-size: 23px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Увеличить здоровье</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 15px;
+font-size: 25px;
+color: white;
+background-color: #969393;
+}
+
+QPushButton:hover{
+background-color: #878484;
+}
+QPushButton:pressed{
+font-size: 23px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>К Битве</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>170</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 15px;
+font-size: 25px;
+color: white;
+background-color: #969393;
+}
+
+QPushButton:hover{
+background-color: #878484;
+}
+QPushButton:pressed{
+font-size: 23px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Увеличить урон</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_money">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>MONEY - </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_hp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>HP -</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_dmg">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>DMG -</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pay_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pay_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>290</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>880</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

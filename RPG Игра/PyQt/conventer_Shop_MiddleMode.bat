@@ -1,0 +1,1 @@
+pyuic5 Shop_MiddleMode.ui -o Shop_MiddleMode.py

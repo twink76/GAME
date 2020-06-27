@@ -1,0 +1,1 @@
+pyuic5 Boss_1_HardMode.ui -o Boss_1_HardMode.py

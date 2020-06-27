@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Boss_1_HardMode</class>
+ <widget class="QMainWindow" name="Boss_1_HardMode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1240</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background: url(images/team.jpg) no-repeat;
+background-color: #edeef0
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_boss_hp">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>600</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>BOSS HP - </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>580</y>
+      <width>410</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 15px;
+font-size: 25px;
+color: white;
+background-color: #969393;
+}
+
+QPushButton:hover{
+background-color: #878484;
+}
+QPushButton:pressed{
+font-size: 23px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Ударить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_boss_dmg">
+    <property name="geometry">
+     <rect>
+      <x>515</x>
+      <y>20</y>
+      <width>210</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Вы напали на босса</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_money">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>630</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>MONEY - </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_hp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>580</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Areal;
+padding: 5px;
+border: 5px solid #969393;
+border-radius: 15px;
+font-size: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>HP -</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1240</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

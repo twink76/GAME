@@ -1,0 +1,1 @@
+pyuic5 start.ui -o start.py
